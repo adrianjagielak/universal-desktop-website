@@ -8,7 +8,7 @@
             <div class="headerBackground">
                 <div class="container">
                     {% include header.html %}
-                    <div class="iphonePreview">
+                    <!-- <div class="iphonePreview">
 
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 0 0" style="position: absolute;">
                             <clipPath id="screenMask" clipPathUnits="objectBoundingBox" transform="scale(0.00257, 0.00119)">
@@ -25,7 +25,7 @@
 
                         {% include screencontent.html %}
 
-                    </div>
+                    </div> -->
                     <div class="appInfo">
                         <div class="appIconShadow">
                             <svg width="0" height="0">
@@ -51,11 +51,51 @@
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
+                            <!-- {% if site.playstore_link %}
                                 <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                             {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a> -->
+                            <a href="https://github.com/adrianjagielak/universal-desktop-website/releases/download/v{{ site.host_version }}/UniversalDesktop.MacHost.{{ site.host_version }}.zip" class="download-button"> Download for Mac</a>
+
+                            <a href="{{ site.vision_pro_main_link }}" class="download-button"> Get for Vision Pro</a>
+
                         </div>
+                        <style>
+                            .download-button {
+                                background-color: black; /* Black background color */
+                                color: white; /* White text color */
+                                font-size: 24px; /* Font size */
+                                padding: 10px 20px; /* Padding around the text */
+                                border: none; /* No borders */
+                                border-radius: 10px; /* Rounded corners */
+                                cursor: pointer; /* Pointer cursor on hover */
+                                text-decoration: none; /* No underline */
+                                font-family: Arial, sans-serif; /* Font family */
+                                display: inline-block; /* Ensures proper padding and dimensions */
+
+                                margin-right: 10px;
+                            }
+      
+    .download-button:link {
+        color: white;
+}
+                   
+    .download-button:visited {
+        color: white;
+}
+               
+.download-button:hover {
+        color: white;
+}
+               
+.download-button:active {
+        color: white;
+}
+                              
+                            .download-button:hover {
+                                background-color: #333; /* Darker background on hover */
+                            }
+                        </style>
                     </div>
                     {% include features.html %}
                     {% include footer.html %}

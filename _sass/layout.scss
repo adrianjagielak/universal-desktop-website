@@ -1,5 +1,5 @@
 .imageWrapper {					// Sets the background image in the header area
-	height: 714px;
+	height: 480px;
 	background: 
 		linear-gradient(
 		rgba($image-overlay-color, $image-overlay-transparency), 
@@ -43,7 +43,7 @@
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
-		"p p p p p i i i i i i i"
+		"i i i i i i i i i i i i"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -69,7 +69,6 @@
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
-			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
 	}
@@ -250,14 +249,14 @@ nav > ul li a:active {
 	align-content: flex-start;
 }
 
-@media only screen and (max-width: 992px) {
+// @media only screen and (max-width: 992px) {
 
 	.appInfo {
 		padding-top: 50px;
 		justify-content: center;
 	}
 
-} 
+// } 
 
 .appIconShadow {
 	display: flex;
@@ -325,13 +324,13 @@ nav > ul li a:active {
 	color: $app-description-color;
 }
 
-@media only screen and (max-width: 992px) {
+// @media only screen and (max-width: 992px) {
 
 	.appDescription {
 		text-align: center;
 	}
 	
-} 
+// } 
 
 .downloadButtonsContainer {
 	display: inline-block;
@@ -339,13 +338,13 @@ nav > ul li a:active {
 	filter: $drop-shadow;
 }
 
-@media only screen and (max-width: 992px) {
+// @media only screen and (max-width: 992px) {
 
 	.downloadButtonsContainer {
 		text-align: center;
 	}
 	
-} 
+// } 
 
 .playStore {
 	height: 75px;
@@ -538,7 +537,7 @@ nav > ul li a:active {
 		flex-grow: 1;
 		flex-direction: row;
 		flex-wrap: wrap;
-		margin-top: 11px;
+		// margin-top: 11px;
 	}
 
 	.feature {
@@ -685,3 +684,28 @@ footer {
 .hidden {
 	display: none;
 }
+
+@media only screen and (min-width: 993px) {
+    .container {
+        grid-template-rows: 115px auto auto auto;
+    }
+    .appInfo {
+        padding-top: 30px; // adjust as necessary
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+	.imageWrapper {
+		height: 500px;	
+	}
+	
+} 
+
+@media only screen and (max-width: 768px) {
+
+	.imageWrapper {
+		height: 640px;	
+	}
+	
+} 
