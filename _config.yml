@@ -52,7 +52,7 @@ features:
     fontawesome_icon_name: link
 
   - title: "Actively Developed: More to Come!"
-    description: "Universal Desktop is constantly evolving. We're actively working on exciting new features like Dock support, better support for native input methods, streaming windows from iOS, Windows, and Linux, and many more. Stay tuned for future updates!"
+    description: "Universal Desktop is constantly evolving. We're actively working on exciting new features like Dock support, audio support, better support for native input methods, streaming windows from iOS, Windows, and Linux, and many more. Stay tuned for future updates!"
     fontawesome_icon_name: "rocket"
 
   - title: Let's Chat! # or "Get in Touch"???
