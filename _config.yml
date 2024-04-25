@@ -1,5 +1,5 @@
 host_version: 0.1.0
-# download_link: https://github.com/adrianjagielak/universal-desktop-website/releases/download/v0.0.1/UniversalDesktop.MacHost.1.0.zip
+# download_link: https://github.com/adrianjagielak/universal-desktop-website/releases/download/v0.1.0/UniversalDesktop.MacHost.0.1.0.zip
 
 vision_pro_main_link: https://apps.apple.com/us/app/id6479523407
 vision_pro_header_link: https://apps.apple.com/us/app/id6479523407
@@ -52,7 +52,7 @@ features:
     fontawesome_icon_name: link
 
   - title: "Actively Developed: More to Come!"
-    description: "Universal Desktop is constantly evolving. We're actively working on exciting new features like Dock support, audio support, better support for native input methods, streaming windows from iOS, Windows, and Linux, and many more. Stay tuned for future updates!"
+    description: "Universal Desktop is constantly evolving. We're actively working on exciting new features like Dock support, Spotlight support, audio support, better support for native input methods, streaming windows from iOS, Windows, and Linux, and many more. Stay tuned for future updates!"
     fontawesome_icon_name: "rocket"
 
   - title: Let's Chat! # or "Get in Touch"???
