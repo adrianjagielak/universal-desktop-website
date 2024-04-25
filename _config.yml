@@ -20,7 +20,7 @@ presskit_download_link: # Enter a link to downloadable file or (e.g. public Drop
 
 app_icon: assets/UniversalDesktopIcon512.jpg                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: Universal Desktop # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price: $4.99 # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price: $7.99 # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description: Stream Mac apps to your Apple Vision Pro as native visionOS windows.
 
 enable_smart_app_banner: false # Set to true to show a smart app banner at top of page on mobile devices.
