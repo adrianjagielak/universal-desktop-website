@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Universal Desktop Changelog</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0</title>
+            <sparkle:version>29</sparkle:version>
+            <enclosure url="https://github.com/adrianjagielak/universal-desktop-website/releases/download/v1.0.0/Universal.Desktop.dmg" />
+            <link>https://www.universaldesktop.app</link>
+            <!-- <sparkle:releaseNotesLink>
+                https://you.com/app/2.0.html
+            </sparkle:releaseNotesLink>
+            <sparkle:fullReleaseNotesLink>
+                https://you.com/app/changelog.php
+            </sparkle:fullReleaseNotesLink>
+            <pubDate>Wed, 09 Jan 2006 19:20:11 +0000</pubDate> -->
+        </item>
+    </channel>
+</rss>
