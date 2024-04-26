@@ -1,5 +1,4 @@
-host_version: 0.9.1
-# download_link: https://github.com/adrianjagielak/universal-desktop-website/releases/download/v0.9.1/UniversalDesktop.MacHost.0.9.1.zip
+host_version: 1.0.0
 
 vision_pro_main_link: https://apps.apple.com/us/app/id6479523407
 vision_pro_header_link: https://apps.apple.com/us/app/id6479523407
