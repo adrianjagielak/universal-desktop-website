@@ -5,7 +5,8 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.0</title>
+            <title>Version 1.0.1</title>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:version>31</sparkle:version>
             <enclosure url="https://github.com/adrianjagielak/universal-desktop-website/releases/download/v1.0.1/Universal.Desktop.dmg" />
             <link>https://www.universaldesktop.app</link>
@@ -19,6 +20,7 @@
         </item>
         <item>
             <title>Version 1.0</title>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:version>29</sparkle:version>
             <enclosure url="https://github.com/adrianjagielak/universal-desktop-website/releases/download/v1.0.0/Universal.Desktop.dmg" />
             <link>https://www.universaldesktop.app</link>
