@@ -5,10 +5,10 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 1.0.2</title>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:version>33</sparkle:version>
-            <enclosure url="https://github.com/adrianjagielak/universal-desktop-website/releases/download/v1.0.2/Universal.Desktop.dmg" />
+            <title>Version 1.0.3</title>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:version>34</sparkle:version>
+            <enclosure url="https://github.com/adrianjagielak/universal-desktop-website/releases/download/v1.0.3/Universal.Desktop.dmg" />
             <description>
                 <![CDATA[
                     <h4>Changelog:</h4>
@@ -17,6 +17,20 @@
                     </ul>
                 ]]>
             </description>
+            <link>https://www.universaldesktop.app</link>
+            <!-- <sparkle:releaseNotesLink>
+                https://you.com/app/2.0.html
+            </sparkle:releaseNotesLink>
+            <sparkle:fullReleaseNotesLink>
+                https://you.com/app/changelog.php
+            </sparkle:fullReleaseNotesLink>
+            <pubDate>Wed, 09 Jan 2006 19:20:11 +0000</pubDate> -->
+        </item>
+        <item>
+            <title>Version 1.0.2</title>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:version>33</sparkle:version>
+            <enclosure url="https://github.com/adrianjagielak/universal-desktop-website/releases/download/v1.0.2/Universal.Desktop.dmg" />
             <link>https://www.universaldesktop.app</link>
             <!-- <sparkle:releaseNotesLink>
                 https://you.com/app/2.0.html
