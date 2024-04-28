@@ -44,6 +44,7 @@
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
 		"i i i i i i i i i i i i"
+		"v v v v v v v v v v v v"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -69,6 +70,7 @@
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
+			"v v v v v v v v v v v v"
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
 	}
@@ -709,3 +711,29 @@ footer {
 	}
 	
 } 
+
+.video-section {
+	grid-area: v;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.action-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.youtube-video {
+    display: inline-block;
+    max-width: 100%;
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width: 768px) {
+    .youtube-video {
+        width: 100%;
+        height: auto;
+    }
+}
